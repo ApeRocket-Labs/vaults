@@ -147,6 +147,7 @@ module.exports = bscVaults = [
         tokenStacked: { symbol: 'CAKE-BNB LP', address: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0' },
         tokenEarned: { symbol: 'CAKE-BNB LP', address: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0' },
         gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 7,
@@ -247,6 +248,7 @@ module.exports = bscVaults = [
         tokenStacked: { symbol: 'BUSD-BNB LP', address: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16' },
         tokenEarned: { symbol: 'BUSD-BNB LP', address: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 15,
@@ -372,6 +374,7 @@ module.exports = bscVaults = [
         tokenStacked: { symbol: 'BUSD-USDT LP', address: '0x2e707261d086687470b515b320478eb1c88d49bb' },
         tokenEarned: { symbol: 'BUSD-USDT LP', address: '0x2e707261d086687470b515b320478eb1c88d49bb' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 33,
@@ -409,6 +412,7 @@ module.exports = bscVaults = [
         tokenStacked: { symbol: 'ETH-BTCB LP', address: '0x6216e04cd40db2c6fbed64f1b5830a98d3a91740' },
         tokenEarned: { symbol: 'ETH-BTCB LP', address: '0x6216e04cd40db2c6fbed64f1b5830a98d3a91740' },
         gradient: 'linear-gradient(90deg, rgba(245,243,243,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disbale: true,
     },
     {
         pid: 39,
