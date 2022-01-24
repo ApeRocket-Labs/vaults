@@ -412,7 +412,7 @@ module.exports = bscVaults = [
         tokenStacked: { symbol: 'ETH-BTCB LP', address: '0x6216e04cd40db2c6fbed64f1b5830a98d3a91740' },
         tokenEarned: { symbol: 'ETH-BTCB LP', address: '0x6216e04cd40db2c6fbed64f1b5830a98d3a91740' },
         gradient: 'linear-gradient(90deg, rgba(245,243,243,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        disbale: true,
+        disable: true,
     },
     {
         pid: 39,

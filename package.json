@@ -1,6 +1,6 @@
 {
   "name": "vaults",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The ApeRocket vault list",
   "main": "src/index.js",
   "repository": "https://github.com/ApeRocket-Labs/vaults",
