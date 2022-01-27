@@ -1,9 +1,10 @@
-const platforms = require("../platforms");
-const vaultTypes = require("../vaultTypes");
+const platforms = require("./platforms");
+const vaultTypes = require("./vaultTypes");
 
-module.exports = bscVaults = [
+module.exports = vaults = [
     {
         pid: 0,
+        network: 56,
         symbol: 'SPACE',
         address: '0x6A2E67e90280940A0b9fBBa8822050aA41d2C1e2',
         filter: { platform: platforms.space, vaultType: [vaultTypes.singleAsset] },
@@ -14,6 +15,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 99,
+        network: 56,
         symbol: 'SPACE-BNB LP',
         address: '0xC7e8c3E7c6db24e59fEB2e8083b36d24305ee73b',
         isOptimizer: true,
@@ -27,6 +29,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 101,
+        network: 56,
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.singleAsset] },
         symbol: 'BANANA',
         address: '0xFfDcD49d902d71445B93DCbFa51E2F9797de05C9',
@@ -50,6 +53,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 102,
+        network: 56,
         symbol: 'CAKE',
         address: '0x1dF3898f5d8B91EA483fD9d8b374dCaBb369C6A0',
         filter: { platform: platforms.pancakeswap, vaultType: [vaultTypes.singleAsset] },
@@ -73,6 +77,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 1,
+        network: 56,
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.singleAsset] },
         symbol: 'BANANA',
         address: '0xa13eF34F11cD905A1aACe891e3Fd1b355D770e7F',
@@ -87,6 +92,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 2,
+        network: 56,
         symbol: 'CAKE',
         address: '0x41b726444CcD5137A7Ec1Fbb870b9eFF57F89E89',
         filter: { platform: platforms.pancakeswap, vaultType: [vaultTypes.singleAsset] },
@@ -101,6 +107,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 3,
+        network: 56,
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.singleAsset] },
         symbol: 'BSW',
         address: '0xA298f622E8B46491749C1ccDBe2DfFA13049A930',
@@ -113,6 +120,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 4,
+        network: 56,
         symbol: 'BANANA-BNB LP',
         address: '0xa126C7f00875343f233e3c2f95067c80ab5B068a',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -125,6 +133,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 5,
+        network: 56,
         symbol: 'BANANA-BNB LP',
         address: '0xD259A715De1fB30AD76Cc9580e68A15Ee9D12Dc2',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -138,6 +147,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 6,
+        network: 56,
         symbol: 'CAKE-BNB LP',
         address: '0x313adEc67e70a86Bd1166CCAcB8aCA932f28E95B',
         filter: { platform: platforms.pancakeswap, vaultType: [vaultTypes.lp] },
@@ -151,6 +161,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 7,
+        network: 56,
         symbol: 'CAKE-BNB LP',
         address: '0xaC3184b1F2888caaB5A7dE1381707c15c153B04A',
         isMaximizer: true,
@@ -164,6 +175,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 48,
+        network: 56,
         symbol: 'SING-BUSD LP',
         address: '0xD61b0D30Ba0FBFC943Ebae35ff86eDf299E13B54',
         filter: { platform: platforms.singular, vaultType: [vaultTypes.lp] },
@@ -177,6 +189,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 8,
+        network: 56,
         symbol: 'BSW-BNB LP',
         address: '0xB8469e8A7a8893E4c698B3De8163906386861B96',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -189,6 +202,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 9,
+        network: 56,
         symbol: 'BSW-BNB LP',
         address: '0x76a3fE4350F13042EC179E5240bC68349d2AAD35',
         isMaximizer: true,
@@ -202,6 +216,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 10,
+        network: 56,
         symbol: 'BANANA-BUSD LP',
         address: '0x1c86DB4820Acb4Dd91A80a8874afb82251aeb937',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -214,6 +229,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 11,
+        network: 56,
         symbol: 'BANANA-BUSD LP',
         address: '0xf3D78aE6A67D391fd894ee8f4da7842EC07CF446',
         isMaximizer: true,
@@ -227,6 +243,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 12,
+        network: 56,
         symbol: 'BSW-USDT LP',
         address: '0x34d1f4FA762c85f363cb5907Ca0BAcF53aBac866',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -239,6 +256,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 14,
+        network: 56,
         symbol: 'BUSD-BNB LP',
         address: '0xcf02e68b900Ce87F8715CAEF8b8a9e212b9158A1',
         isOptimizer: true,
@@ -252,6 +270,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 15,
+        network: 56,
         symbol: 'BUSD-BNB LP',
         address: '0x7dBB2b2Fd312710C805D4c78EE55ca1F8750Bace',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -264,6 +283,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 16,
+        network: 56,
         symbol: 'BNB-BUSD LP',
         address: '0xa8A2c0aa4C050D2cB5C1Ac224A31c76492A35B80',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -276,6 +296,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 18,
+        network: 56,
         symbol: 'BUSD-BNB LP',
         address: '0x101bCD396DDFb934072a171Bc4F625B85D505C78',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -289,6 +310,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 19,
+        network: 56,
         symbol: 'BNB-BUSD LP',
         address: '0xBC84830C42cedc1A32b665BfEaB3Fb16bcdFb8e3',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -302,6 +324,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 23,
+        network: 56,
         symbol: 'ETH-BNB LP',
         address: '0xd9137C7be7a3117941317d525B06c441eAC7380d',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
@@ -315,6 +338,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 25,
+        network: 56,
         symbol: 'BUSD-USDC LP',
         address: '0xe1F45D11B5D0Ddbe300cADFeFd7021Ac750a4281',
         isOptimizer: true,
@@ -327,6 +351,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 27,
+        network: 56,
         symbol: 'BUSD-USDC LP',
         address: '0x1119FBECe0F576D318ce489886d05A098e94961F',
         isMaximizer: true,
@@ -340,6 +365,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 28,
+        network: 56,
         symbol: 'ADA-BNB LP',
         address: '0x0Edf919fe5cDA4c7fA02AE7de77243cecedFd036',
         isOptimizer: true,
@@ -352,6 +378,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 29,
+        network: 56,
         symbol: 'ADA-BNB LP',
         address: '0x8ADDf5FcE06B9F93cBf1F8B2ef580b25D1EDBE56',
         isMaximizer: true,
@@ -365,6 +392,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 31,
+        network: 56,
         symbol: 'BUSD-USDT LP',
         address: '0x8747431ddFf6069f32ad8eE0Da51084432F8594C',
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp, vaultTypes.stableLp] },
@@ -378,6 +406,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 33,
+        network: 56,
         symbol: 'BUSD-USDT LP',
         address: '0xC8bba6AC77804b3b6b28D6C5890b98fb935F361F',
         isMaximizer: true,
@@ -391,6 +420,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 35,
+        network: 56,
         symbol: 'BNB-USDT LP',
         address: '0x8E1fcB9b48A299b71d7a4CDc24F11439cF253126',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -403,6 +433,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 38,
+        network: 56,
         symbol: 'ETH-BTCB LP',
         address: '0x681969eBfC476E8208CA551fA364e8FE6a19242F',
         filter: { platform: platforms.biswap, vaultType: [vaultTypes.lp] },
@@ -416,6 +447,7 @@ module.exports = bscVaults = [
     },
     {
         pid: 39,
+        network: 56,
         symbol: 'ETH-BTCB LP',
         address: '0x1AFB491895D301a7cea026a5c65316b2C05A56B4',
         isMaximizer: true,

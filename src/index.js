@@ -1,5 +1,11 @@
-const bscVaults = require("./vaults/bsc");
+const vaults = require("./vaults");
 
-module.exports = vaults = {
-    56: bscVaults
+var vaultsByBlockchain = {
+    56: vaults.filter(v => v.network === 56),
+    250: vaults.filter(v => v.network === 250)
+}
+
+module.exports = {
+    vaultsByBlockchain,
+    vaults
 }
