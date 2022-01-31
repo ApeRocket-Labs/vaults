@@ -43,11 +43,11 @@ module.exports = vaults = [
         strategies: [
             {
                 tokenFarmed: {
-                    symbol: "GUARD",
-                    address: "0xF606bd19b1E61574ED625d9ea96C841D4E247A32"
+                    symbol: "BANANA",
+                    address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
                 },
                 sousChefAddress: "0x73d3D28cc018a89Fe6518d7B5EfbCfCF0695A0d9",
-                strategyAddress: "0x43e5A6828eA43b7ECc8b600D2f23269e80e8797b"
+                strategyAddress: "0x5C8D727B265DBAFABA67E050F2F739CAEEB4A6F9"
             }
         ]
     },
