@@ -46,7 +46,7 @@ module.exports = vaults = [
                     symbol: "BANANA",
                     address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
                 },
-                sousChefAddress: "0x73d3D28cc018a89Fe6518d7B5EfbCfCF0695A0d9",
+                sousChefAddress: "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9",
                 strategyAddress: "0x98a3c995ca2244309baa817e9B05bC2b0C569834"
             }
         ]
