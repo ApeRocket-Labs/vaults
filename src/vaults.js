@@ -172,6 +172,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'CAKE-BNB LP', address: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0' },
         tokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
         gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 48,
@@ -213,6 +214,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BSW-BNB LP', address: '0x46492B26639Df0cda9b2769429845cb991591E0A' },
         tokenEarned: { symbol: 'BSW', address: '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1' },
         gradient: 'linear-gradient(90deg, rgba(249, 59, 93,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 10,
@@ -321,6 +323,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BNB-BUSD LP', address: '0xacaac9311b0096e04dfe96b6d87dec867d3883dc' },
         tokenEarned: { symbol: 'BSW', address: '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 23,
@@ -458,5 +461,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ETH-BTCB LP', address: '0x6216e04cd40db2c6fbed64f1b5830a98d3a91740' },
         tokenEarned: { symbol: 'BSW', address: '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1' },
         gradient: 'linear-gradient(90deg, rgba(245,243,243,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     }
 ]
