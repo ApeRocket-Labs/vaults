@@ -433,6 +433,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BNB-USDT LP', address: '0x8840c6252e2e86e545defb6da98b2a0e26d8c1ba' },
         tokenEarned: { symbol: 'BNB-USDT LP', address: '0x8840c6252e2e86e545defb6da98b2a0e26d8c1ba' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 38,
