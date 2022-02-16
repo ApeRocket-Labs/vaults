@@ -17,3 +17,16 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: Rebuild
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: ${{ secrets.VERCEL_REBUILD }}
+          method: 'POST'
+          
+      - name: Update Data
+        uses: fjogeleit/http-request-action@master
+        with:
+          url: ${{ secrets.UPDATE_DATA }}
+          method: 'GET'
+          
