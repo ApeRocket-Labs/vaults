@@ -67,6 +67,14 @@ module.exports = vaults = [
         strategies: [
             {
                 tokenFarmed: {
+                    symbol: "ACH",
+                    address: "0xBc7d6B50616989655AfD682fb42743507003056D"
+                },
+                sousChefAddress: "0xcD1Be742b04DB005e2C445A11BDe6d13DD9dd454",
+                strategyAddress: "0x0b012e24e0001965E10E61B6Be33076559dd3dd8"
+            },
+            {
+                tokenFarmed: {
                     symbol: "BCOIN",
                     address: "0x00e1656e45f18ec6747F5a8496Fd39B50b38396D"
                 },
