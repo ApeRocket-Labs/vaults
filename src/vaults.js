@@ -28,6 +28,29 @@ module.exports = vaults = [
         gradient: 'linear-gradient(90deg, rgba(161,164,255,0.2) 0%, rgba(11,23,46,0.2) 100%)',
     },
     {
+        pid: 103,
+        network: 56,
+        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        symbol: 'ETH',
+        address: '0xc373a495205bDBBb1E013880a3FEfC135E11A3aa',
+        isSingleToken: true,
+        basePoolPid: "eth",
+        baseTokenEarned: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
+        tokenStacked: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
+        tokenEarned: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
+        gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "ETH",
+                    address: "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+                },
+                strategyAddress: "0x8421A3B2720d494b199ABc79D6c9599E4Bcf76f8"
+            }
+        ]
+    },
+    {
         pid: 101,
         network: 56,
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.singleAsset] },
