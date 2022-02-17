@@ -33,4 +33,10 @@ module.exports = platforms = {
     color: '#79BEAF',
     textColor: '#0f1c36',
   },
+  alpaca: {
+    label: 'Alpaca',
+    displayLabel: 'Alpaca',
+    color: '#79BEAF',
+    textColor: '#0f1c36',
+  },
 }
