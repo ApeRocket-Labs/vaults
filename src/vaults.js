@@ -28,6 +28,98 @@ module.exports = vaults = [
         gradient: 'linear-gradient(90deg, rgba(161,164,255,0.2) 0%, rgba(11,23,46,0.2) 100%)',
     },
     {
+        pid: 104,
+        network: 56,
+        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        symbol: 'BTCB',
+        address: '0xE19dE30b8EDF64484591eBA1b5e40a45a07fA140',
+        isSingleToken: true,
+        basePoolPid: "BTCB",
+        baseTokenEarned: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
+        tokenStacked: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
+        tokenEarned: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
+        gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "BTCB",
+                    address: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+                },
+                strategyAddress: "0x804896f7c8881233b49A2d79d996Dc5Ea5c1b641"
+            }
+        ]
+    },
+    {
+        pid: 105,
+        network: 56,
+        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        symbol: 'BUSD',
+        address: '0x65A945C18B9C0454C1ED447286E96Dc69083eDf5',
+        isSingleToken: true,
+        basePoolPid: "BUSD",
+        baseTokenEarned: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
+        tokenStacked: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
+        tokenEarned: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
+        gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "BUSD",
+                    address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+                },
+                strategyAddress: "0xA7Fc5a2D652296E155E9fDdBeE1De41335bF896d"
+            }
+        ]
+    },
+    {
+        pid: 106,
+        network: 56,
+        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        symbol: 'USDC',
+        address: '0xb39E83E35c313682bD2d19Ae7c37898aEf2711C6',
+        isSingleToken: true,
+        basePoolPid: "USDC",
+        baseTokenEarned: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
+        tokenStacked: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
+        tokenEarned: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
+        gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "USDC",
+                    address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+                },
+                strategyAddress: "0x81Bf7450E276c73f4c6B909fd73698351A2Ee6B7"
+            }
+        ]
+    },
+    {
+        pid: 107,
+        network: 56,
+        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        symbol: 'USDT',
+        address: '0x916938b1bD217cc59e0f213770e5A3C2dBa18Aae',
+        isSingleToken: true,
+        basePoolPid: "USDT",
+        baseTokenEarned: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
+        tokenStacked: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
+        tokenEarned: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
+        gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "USDT",
+                    address: "0x55d398326f99059fF775485246999027B3197955"
+                },
+                strategyAddress: "0xCa1E5c79D77A3ee07c2c4ea2755BaFBe60255861"
+            }
+        ]
+    },
+    {
         pid: 103,
         network: 56,
         filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
