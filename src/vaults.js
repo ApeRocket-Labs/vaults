@@ -163,6 +163,38 @@ module.exports = vaults = [
                 },
                 sousChefAddress: "0x5c8D727b265DBAfaba67E050f2f739cAeEB4A6F9",
                 strategyAddress: "0x98a3c995ca2244309baa817e9B05bC2b0C569834"
+            },
+            {
+                tokenFarmed: {
+                    symbol: "MANUFACTORY",
+                    address: "0x36953b5ec00a13edceceb3af258d034913d2a79d"
+                },
+                sousChefAddress: "0x7a13FEb86802f979B536b8706C7c598ef2812294",
+                strategyAddress: "0x7204E9ba4F22d0dC39B405B5a9E58705C2D6b1b2"
+            },
+            {
+                tokenFarmed: {
+                    symbol: "NFTY",
+                    address: "0x8623e66bea0dce41b6d47f9c44e806a115babae0"
+                },
+                sousChefAddress: "0x0F555e92e9470d064F8A6D0b97a2E3F7d26A222d",
+                strategyAddress: "0x2c81f03d9037A234078F797b4Da18e07e2Ac3034"
+            },
+            {
+                tokenFarmed: {
+                    symbol: "RANKER",
+                    address: "0xdE4512Db1a7a7519818dA38DB86eC1363d70A711"
+                },
+                sousChefAddress: "0xc5a313375D986Ee70FA51a4890aEB8EeB8A5D33B",
+                strategyAddress: "0x6d13ff5DCCb46C5Ef24AB24389d41bA216b04ACd"
+            },
+            {
+                tokenFarmed: {
+                    symbol: "DOSE",
+                    address: "0x7837fd820ba38f95c54d6dac4ca3751b81511357"
+                },
+                sousChefAddress: "0xd0378c1b37D530a00E91764A7a41EfEB3d6A5fbC",
+                strategyAddress: "0x43DD65c33e71682347F5c098FD35d03f3C16F699"
             }
         ]
     },
