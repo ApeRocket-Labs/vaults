@@ -272,6 +272,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BSW', address: '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1' },
         tokenEarned: { symbol: 'BSW', address: '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1' },
         gradient: 'linear-gradient(90deg, rgba(249, 59, 93,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 4,
