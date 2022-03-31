@@ -1,3 +1,5 @@
+const routers = require("./routers");
+
 module.exports = platforms = {
   all: {
     label: 'All',
@@ -14,18 +16,21 @@ module.exports = platforms = {
     displayLabel: '🐵 ApeSwap',
     color: '#f8f5e7',
     textColor: '#0f1c36',
+    router: routers[56].apeswap
   },
   biswap: {
     label: 'Biswap',
     displayLabel: 'Biswap',
     color: '#f93b5d',
     textColor: '#ffffff',
+    router: routers[56].biswap
   },
   pancakeswap: {
     label: 'PancakeSwap',
     displayLabel: '🥞 PancakeSwap',
     color: '#77d4db',
     textColor: '#0f1c36',
+    router: routers[56].pancakeswap
   },
   singular: {
     label: 'Singular',

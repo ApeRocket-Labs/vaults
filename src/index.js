@@ -1,4 +1,6 @@
 const vaults = require("./vaults");
+const platforms = require("./platforms");
+const vaultTypes = require("./vaultTypes");
 
 var vaultsByBlockchain = {
     56: vaults.filter(v => v.network === 56),
@@ -7,5 +9,8 @@ var vaultsByBlockchain = {
 
 module.exports = {
     vaultsByBlockchain,
-    vaults
+    vaults,
+    platforms,
+    vaultTypes,
+    routers
 }
