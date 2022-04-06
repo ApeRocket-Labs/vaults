@@ -122,7 +122,7 @@ module.exports = vaults = [
     {
         pid: 108,
         network: 56,
-        symbol: "BANANA-BNB",
+        symbol: "BANANA-BNB LP",
         address: "0xeE073a8EE18EDdaF84CF3Cab9D1e809f9081f9D3",
         filter: {
             platform: {
@@ -144,7 +144,7 @@ module.exports = vaults = [
         basePoolPid: 1,
         baseTokenEarned: {
             symbol: "BANANA",
-            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+            address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         tokenStacked: {
             symbol: "BANANA-BNB",
