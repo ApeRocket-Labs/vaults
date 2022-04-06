@@ -120,6 +120,44 @@ module.exports = vaults = [
         ]
     },
     {
+        pid: 108,
+        network: 56,
+        symbol: "BANANA-BNB",
+        address: "0xeE073a8EE18EDdaF84CF3Cab9D1e809f9081f9D3",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 101,
+        basePoolPid: 1,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BANANA-BNB",
+            address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
+        },
+        tokenEarned: {
+            symbol: "BANANA-BNB",
+            address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
         pid: 103,
         network: 56,
         filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
