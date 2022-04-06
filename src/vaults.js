@@ -147,11 +147,11 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         tokenStacked: {
-            symbol: "BANANA-BNB",
+            symbol: "BANANA-BNB LP",
             address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
         },
         tokenEarned: {
-            symbol: "BANANA-BNB",
+            symbol: "BANANA-BNB LP",
             address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
