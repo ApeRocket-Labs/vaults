@@ -120,44 +120,6 @@ module.exports = vaults = [
         ]
     },
     {
-        pid: 108,
-        network: 56,
-        symbol: "BANANA-BNB LP",
-        address: "0xeE073a8EE18EDdaF84CF3Cab9D1e809f9081f9D3",
-        filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
-        },
-        isMaximizer: true,
-        isMercuryVault: true,
-        maximizerVaultPid: 101,
-        basePoolPid: 1,
-        baseTokenEarned: {
-            symbol: "BANANA",
-            address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
-        },
-        tokenStacked: {
-            symbol: "BANANA-BNB LP",
-            address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
-        },
-        tokenEarned: {
-            symbol: "BANANA-BNB LP",
-            address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
-        },
-        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
-    },
-    {
         pid: 103,
         network: 56,
         filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
@@ -267,6 +229,272 @@ module.exports = vaults = [
                 strategyAddress: "0x6a65D6c06dEE2b614d959b6e0086C02Bae1a7398"
             }
         ]
+    },
+    {
+        pid: 108,
+        network: 56,
+        symbol: "BANANA-BNB LP",
+        address: "0x40E0c7d876455EAa50d4bB80C04bc47Ceebc17b8",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 1,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BANANA-BNB LP",
+            address: "0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 109,
+        network: 56,
+        symbol: "BANANA-BUSD LP",
+        address: "0x8f76C55A52DC4E7e6352f3d70eFF47bb21B17E29",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 2,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BANANA-BUSD LP",
+            address: "0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 110,
+        network: 56,
+        symbol: "BUSD-BNB LP",
+        address: "0xA847A81E870252f306605712b0692757fE16CaDC",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 3,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BUSD-BNB LP",
+            address: "0x51e6D27FA57373d8d4C256231241053a70Cb1d93"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 111,
+        network: 56,
+        symbol: "ETH-BNB LP",
+        address: "0x6df847f9e8CB9279fc88cD1105b13da246d02C6a",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 5,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "ETH-BNB LP",
+            address: "0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 112,
+        network: 56,
+        symbol: "BUSD-USDC LP",
+        address: "0x2Dc4288FaF42A01516c376043E6320526BA8F620",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 8,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BUSD-USDC LP",
+            address: "0xC087C78AbaC4A0E900a327444193dBF9BA69058E"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 113,
+        network: 56,
+        symbol: "ADA-BNB LP",
+        address: "0xC27B90a7097D658e3DfDcd351D898881b2B98ADD",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 17,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "ADA-BNB LP",
+            address: "0x40d4543887E4170A1A40Cd8dB15A6b297c812Cb1"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 114,
+        network: 56,
+        symbol: "BUSD-USDT LP",
+        address: "0x2fc3ACD83f0FB647AfD3Bbdb200FC475549b93bd",
+        filter: {
+            platform: {
+                label: "ApeSwap",
+                displayLabel: "\ud83d\udc35 ApeSwap",
+                color: "#f8f5e7",
+                textColor: "#0f1c36",
+                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 34,
+        baseTokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        tokenStacked: {
+            symbol: "BUSD-USDT LP",
+            address: "0x2e707261d086687470B515B320478Eb1C88D49bb"
+        },
+        tokenEarned: {
+            symbol: "BANANA",
+            address: "0x603C7F932ED1FC6575303D8FB018FDCBB0F39A95"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
     },
     {
         pid: 1,
