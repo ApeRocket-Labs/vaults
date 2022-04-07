@@ -623,6 +623,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BSW-BNB LP', address: '0x46492B26639Df0cda9b2769429845cb991591E0A' },
         tokenEarned: { symbol: 'BSW-BNB LP', address: '0x46492B26639Df0cda9b2769429845cb991591E0A' },
         gradient: 'linear-gradient(90deg, rgba(249, 59, 93,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 9,
@@ -723,6 +724,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BNB-BUSD LP', address: '0xacaac9311b0096e04dfe96b6d87dec867d3883dc' },
         tokenEarned: { symbol: 'BNB-BUSD LP', address: '0xacaac9311b0096e04dfe96b6d87dec867d3883dc' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true
     },
     {
         pid: 18,
@@ -767,8 +769,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ETH-BNB LP', address: '0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(245,243,243,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-
-
+        disable: true,
     },
     {
         pid: 25,
@@ -811,6 +812,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ADA-BNB LP', address: '0x40d4543887E4170A1A40Cd8dB15A6b297c812Cb1' },
         tokenEarned: { symbol: 'ADA-BNB LP', address: '0x40d4543887E4170A1A40Cd8dB15A6b297c812Cb1' },
         gradient: 'linear-gradient(90deg, rgba(0,51,173,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 29,
