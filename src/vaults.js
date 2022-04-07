@@ -266,7 +266,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 109,
@@ -304,7 +304,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 110,
@@ -342,7 +342,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 111,
@@ -380,7 +380,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 112,
@@ -418,7 +418,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 113,
@@ -456,7 +456,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
+
     },
     {
         pid: 114,
@@ -494,7 +494,6 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        deployed: false
     },
     {
         pid: 1,
@@ -552,6 +551,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA-BNB LP', address: '0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713' },
         tokenEarned: { symbol: 'BANANA-BNB LP', address: '0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true
     },
     {
         pid: 5,
@@ -566,6 +566,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA-BNB LP', address: '0xF65C1C0478eFDe3c19b49EcBE7ACc57BB6B1D713' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true
     },
     {
         pid: 6,
@@ -650,6 +651,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA-BUSD LP', address: '0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914' },
         tokenEarned: { symbol: 'BANANA-BUSD LP', address: '0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 11,
@@ -664,6 +666,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA-BUSD LP', address: '0x7Bd46f6Da97312AC2DBD1749f82E202764C0B914' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 12,
@@ -677,6 +680,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BSW-USDT LP', address: '0x2b30c317ceDFb554Ec525F85E79538D59970BEb0' },
         tokenEarned: { symbol: 'BSW-USDT LP', address: '0x2b30c317ceDFb554Ec525F85E79538D59970BEb0' },
         gradient: 'linear-gradient(90deg, rgba(249, 59, 93,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 14,
@@ -704,6 +708,8 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD-BNB LP', address: '0x51e6d27fa57373d8d4c256231241053a70cb1d93' },
         tokenEarned: { symbol: 'BUSD-BNB LP', address: '0x51e6d27fa57373d8d4c256231241053a70cb1d93' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true
+
     },
     {
         pid: 16,
@@ -731,6 +737,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD-BNB LP', address: '0x51e6d27fa57373d8d4c256231241053a70cb1d93' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true
     },
     {
         pid: 19,
@@ -760,6 +767,8 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ETH-BNB LP', address: '0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(245,243,243,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+
+
     },
     {
         pid: 25,
@@ -773,6 +782,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD-USDC LP', address: '0xC087C78AbaC4A0E900a327444193dBF9BA69058E' },
         tokenEarned: { symbol: 'BUSD-USDC LP', address: '0xC087C78AbaC4A0E900a327444193dBF9BA69058E' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 27,
@@ -787,6 +797,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD-USDC LP', address: '0xC087C78AbaC4A0E900a327444193dBF9BA69058E' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 28,
@@ -814,6 +825,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ADA-BNB LP', address: '0x40d4543887E4170A1A40Cd8dB15A6b297c812Cb1' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(0,51,173,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 31,
@@ -842,6 +854,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD-USDT LP', address: '0x2e707261d086687470b515b320478eb1c88d49bb' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(240,185,11,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        disable: true,
     },
     {
         pid: 35,
