@@ -39,6 +39,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
         tokenEarned: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#e39552",
         isMercuryVault: true,
         strategies: [
             {
@@ -62,6 +63,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
         tokenEarned: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#f1bb08",
         isMercuryVault: true,
         strategies: [
             {
@@ -85,6 +87,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
         tokenEarned: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#2775c9",
         isMercuryVault: true,
         strategies: [
             {
@@ -108,6 +111,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
         tokenEarned: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#009e7b",
         isMercuryVault: true,
         strategies: [
             {
@@ -131,6 +135,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
         tokenEarned: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#5c6cc0",
         isMercuryVault: true,
         strategies: [
             {
@@ -154,6 +159,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#ffd54f",
         isMercuryVault: true,
         strategies: [
             {
@@ -210,6 +216,7 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
         tokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
         gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#1fc7d4",
         isMercuryVault: true,
         strategies: [
             {
@@ -266,7 +273,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#ffd54f",
     },
     {
         pid: 109,
@@ -304,7 +311,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#ffd54f",
     },
     {
         pid: 110,
@@ -342,7 +349,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#f1bb08",
     },
     {
         pid: 111,
@@ -380,7 +387,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#5c6cc0",
     },
     {
         pid: 112,
@@ -418,7 +425,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#2775c9",
     },
     {
         pid: 113,
@@ -456,7 +463,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-
+        color: "#0033AD",
     },
     {
         pid: 114,
@@ -494,6 +501,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        color: "#009e7b",
     },
     {
         pid: 1,
