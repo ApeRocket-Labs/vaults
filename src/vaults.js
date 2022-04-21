@@ -148,6 +148,31 @@ module.exports = vaults = [
         ]
     },
     {
+        pid: 102,
+        network: 56,
+        symbol: 'CAKE',
+        address: '0x1dF3898f5d8B91EA483fD9d8b374dCaBb369C6A0',
+        filter: { platform: platforms.pancakeswap, vaultType: [vaultTypes.singleAsset] },
+        isSingleToken: true,
+        basePoolPid: 0,
+        baseTokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
+        tokenStacked: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
+        tokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
+        gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
+        color: "#1fc7d4",
+        isMercuryVault: true,
+        strategies: [
+            {
+                tokenFarmed: {
+                    symbol: "GMT",
+                    address: "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+                },
+                sousChefAddress: "0xe76a31cF974BA5819ce86cB4667a4bf05174bC59",
+                strategyAddress: "0x3cF795333ae4818268edC3c136285eE7D9a64447"
+            }
+        ]
+    },
+    {
         pid: 101,
         network: 56,
         filter: { platform: platforms.apeswap, vaultType: [vaultTypes.singleAsset] },
@@ -201,39 +226,6 @@ module.exports = vaults = [
                 },
                 sousChefAddress: "0xd0378c1b37D530a00E91764A7a41EfEB3d6A5fbC",
                 strategyAddress: "0x43DD65c33e71682347F5c098FD35d03f3C16F699"
-            }
-        ]
-    },
-    {
-        pid: 102,
-        network: 56,
-        symbol: 'CAKE',
-        address: '0x1dF3898f5d8B91EA483fD9d8b374dCaBb369C6A0',
-        filter: { platform: platforms.pancakeswap, vaultType: [vaultTypes.singleAsset] },
-        isSingleToken: true,
-        basePoolPid: 0,
-        baseTokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
-        tokenStacked: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
-        tokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
-        gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#1fc7d4",
-        isMercuryVault: true,
-        strategies: [
-            {
-                tokenFarmed: {
-                    symbol: "ACH",
-                    address: "0xBc7d6B50616989655AfD682fb42743507003056D"
-                },
-                sousChefAddress: "0xcD1Be742b04DB005e2C445A11BDe6d13DD9dd454",
-                strategyAddress: "0x0b012e24e0001965E10E61B6Be33076559dd3dd8"
-            },
-            {
-                tokenFarmed: {
-                    symbol: "BCOIN",
-                    address: "0x00e1656e45f18ec6747F5a8496Fd39B50b38396D"
-                },
-                sousChefAddress: "0x25ca61796D786014FfE15E42aC11C7721d46E120",
-                strategyAddress: "0x6a65D6c06dEE2b614d959b6e0086C02Bae1a7398"
             }
         ]
     },
