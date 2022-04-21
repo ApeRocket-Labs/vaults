@@ -32,16 +32,10 @@ module.exports = platforms = {
     textColor: '#0f1c36',
     router: routers[56].pancakeswap
   },
-  singular: {
-    label: 'Singular',
-    displayLabel: 'Singular',
-    color: '#79BEAF',
-    textColor: '#0f1c36',
-  },
-  alpaca: {
-    label: 'Alpaca',
-    displayLabel: 'Alpaca',
-    color: '#79BEAF',
-    textColor: '#0f1c36',
+  bluechips: {
+    label: 'Blue Chips',
+    displayLabel: 'Blue Chips',
+    color: '#0089df',
+    textColor: '#ffffff',
   },
 }

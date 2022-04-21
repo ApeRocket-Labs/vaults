@@ -30,7 +30,7 @@ module.exports = vaults = [
     {
         pid: 104,
         network: 56,
-        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        filter: { platform: platforms.bluechips, vaultType: [vaultTypes.singleAsset] },
         symbol: 'BTCB',
         address: '0xE19dE30b8EDF64484591eBA1b5e40a45a07fA140',
         isSingleToken: true,
@@ -53,7 +53,7 @@ module.exports = vaults = [
     {
         pid: 105,
         network: 56,
-        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        filter: { platform: platforms.bluechips, vaultType: [vaultTypes.singleAsset] },
         symbol: 'BUSD',
         address: '0x65A945C18B9C0454C1ED447286E96Dc69083eDf5',
         isSingleToken: true,
@@ -76,7 +76,7 @@ module.exports = vaults = [
     {
         pid: 106,
         network: 56,
-        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        filter: { platform: platforms.bluechips, vaultType: [vaultTypes.singleAsset] },
         symbol: 'USDC',
         address: '0xb39E83E35c313682bD2d19Ae7c37898aEf2711C6',
         isSingleToken: true,
@@ -99,7 +99,7 @@ module.exports = vaults = [
     {
         pid: 107,
         network: 56,
-        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        filter: { platform: platforms.bluechips, vaultType: [vaultTypes.singleAsset] },
         symbol: 'USDT',
         address: '0x916938b1bD217cc59e0f213770e5A3C2dBa18Aae',
         isSingleToken: true,
@@ -122,7 +122,7 @@ module.exports = vaults = [
     {
         pid: 103,
         network: 56,
-        filter: { platform: platforms.alpaca, vaultType: [vaultTypes.singleAsset] },
+        filter: { platform: platforms.bluechips, vaultType: [vaultTypes.singleAsset] },
         symbol: 'ETH',
         address: '0xc373a495205bDBBb1E013880a3FEfC135E11A3aa',
         isSingleToken: true,
@@ -236,18 +236,8 @@ module.exports = vaults = [
         symbol: "BANANA-BNB LP",
         address: "0x40E0c7d876455EAa50d4bB80C04bc47Ceebc17b8",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -274,18 +264,8 @@ module.exports = vaults = [
         symbol: "BANANA-BUSD LP",
         address: "0x8f76C55A52DC4E7e6352f3d70eFF47bb21B17E29",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -312,18 +292,8 @@ module.exports = vaults = [
         symbol: "BUSD-BNB LP",
         address: "0xA847A81E870252f306605712b0692757fE16CaDC",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -350,18 +320,8 @@ module.exports = vaults = [
         symbol: "ETH-BNB LP",
         address: "0x6df847f9e8CB9279fc88cD1105b13da246d02C6a",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -388,18 +348,8 @@ module.exports = vaults = [
         symbol: "BUSD-USDC LP",
         address: "0x2Dc4288FaF42A01516c376043E6320526BA8F620",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -426,18 +376,8 @@ module.exports = vaults = [
         symbol: "ADA-BNB LP",
         address: "0xC27B90a7097D658e3DfDcd351D898881b2B98ADD",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -464,18 +404,8 @@ module.exports = vaults = [
         symbol: "BUSD-USDT LP",
         address: "0x2fc3ACD83f0FB647AfD3Bbdb200FC475549b93bd",
         filter: {
-            platform: {
-                label: "ApeSwap",
-                displayLabel: "\ud83d\udc35 ApeSwap",
-                color: "#f8f5e7",
-                textColor: "#0f1c36",
-                router: "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.apeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -503,18 +433,8 @@ module.exports = vaults = [
         symbol: "CAKE-BNB LP",
         address: "0x0dfD4BC139dD81D98257a0b5dC056f59D22d43F4",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -541,18 +461,8 @@ module.exports = vaults = [
         symbol: "BNB-BUSD LP",
         address: "0x602C250713F946B7F1339c6D20Fa064f8A81d3ec",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -579,18 +489,8 @@ module.exports = vaults = [
         symbol: "ADA-BNB LP",
         address: "0xD9ac888a9bF2cB75f4b912a68adf964b6D267a38",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -617,18 +517,8 @@ module.exports = vaults = [
         symbol: "DOT-BNB LP",
         address: "0x3006cf8E63E006A5189778eE1587b0e08C25FcA1",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -655,18 +545,8 @@ module.exports = vaults = [
         symbol: "LINK-BNB LP",
         address: "0x9DE2d162E9213b45453000A47E4397Ae78811426",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -693,18 +573,8 @@ module.exports = vaults = [
         symbol: "USDT-BUSD LP",
         address: "0x14d61d88D5D37aaefd928c55be6f322a8ad8e5a5",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -731,18 +601,8 @@ module.exports = vaults = [
         symbol: "TWT-BNB LP",
         address: "0xf7EBc580c0DC192459Ba8B073E8D49D88cA52c05",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -769,18 +629,8 @@ module.exports = vaults = [
         symbol: "XVS-BNB LP",
         address: "0xcDFeBc260359454578BF2446923876840cDe408A",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -807,18 +657,8 @@ module.exports = vaults = [
         symbol: "ETH-BNB LP",
         address: "0xf633335C8Ae858CeA7AC8c8ab227062526Fd2bDf",
         filter: {
-            platform: {
-                label: "PancakeSwap",
-                displayLabel: "\ud83e\udd5e PancakeSwap",
-                color: "#77d4db",
-                textColor: "#0f1c36",
-                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
-            },
-            vaultType: [
-                {
-                    label: "LP"
-                }
-            ]
+            platform: platforms.pancakeswap,
+            vaultType: [vaultTypes.lp]
         },
         isMaximizer: true,
         isMercuryVault: true,
@@ -948,7 +788,7 @@ module.exports = vaults = [
         network: 56,
         symbol: 'SING-BUSD LP',
         address: '0xD61b0D30Ba0FBFC943Ebae35ff86eDf299E13B54',
-        filter: { platform: platforms.singular, vaultType: [vaultTypes.lp] },
+        filter: { platform: platforms.apeswap, vaultType: [vaultTypes.lp] },
         isOptimizer: true,
         basePoolPid: 0,
         baseTokenEarned: { symbol: 'SING', address: '0x23894C0ce2d79B79Ea33A4D02e67ae843Ef6e563' },
