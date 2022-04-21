@@ -39,7 +39,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
         tokenEarned: { symbol: 'BTCB', address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#e39552",
         isMercuryVault: true,
         strategies: [
             {
@@ -63,7 +62,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
         tokenEarned: { symbol: 'BUSD', address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#f1bb08",
         isMercuryVault: true,
         strategies: [
             {
@@ -87,7 +85,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
         tokenEarned: { symbol: 'USDC', address: '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#2775c9",
         isMercuryVault: true,
         strategies: [
             {
@@ -111,7 +108,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
         tokenEarned: { symbol: 'USDT', address: '0x55d398326f99059fF775485246999027B3197955' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#009e7b",
         isMercuryVault: true,
         strategies: [
             {
@@ -135,7 +131,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
         tokenEarned: { symbol: 'ETH', address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#5c6cc0",
         isMercuryVault: true,
         strategies: [
             {
@@ -159,7 +154,6 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         tokenEarned: { symbol: 'BANANA', address: '0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95' },
         gradient: 'linear-gradient(90deg, rgba(248,245,231,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#ffd54f",
         isMercuryVault: true,
         strategies: [
             {
@@ -216,16 +210,23 @@ module.exports = vaults = [
         tokenStacked: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
         tokenEarned: { symbol: 'CAKE', address: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82' },
         gradient: 'linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)',
-        color: "#1fc7d4",
         isMercuryVault: true,
         strategies: [
             {
                 tokenFarmed: {
-                    symbol: "GMT",
-                    address: "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+                    symbol: "ACH",
+                    address: "0xBc7d6B50616989655AfD682fb42743507003056D"
                 },
-                sousChefAddress: "0xe76a31cF974BA5819ce86cB4667a4bf05174bC59",
-                strategyAddress: "0x3cF795333ae4818268edC3c136285eE7D9a64447"
+                sousChefAddress: "0xcD1Be742b04DB005e2C445A11BDe6d13DD9dd454",
+                strategyAddress: "0x0b012e24e0001965E10E61B6Be33076559dd3dd8"
+            },
+            {
+                tokenFarmed: {
+                    symbol: "BCOIN",
+                    address: "0x00e1656e45f18ec6747F5a8496Fd39B50b38396D"
+                },
+                sousChefAddress: "0x25ca61796D786014FfE15E42aC11C7721d46E120",
+                strategyAddress: "0x6a65D6c06dEE2b614d959b6e0086C02Bae1a7398"
             }
         ]
     },
@@ -265,7 +266,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#ffd54f",
+
     },
     {
         pid: 109,
@@ -303,7 +304,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#ffd54f",
+
     },
     {
         pid: 110,
@@ -341,7 +342,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#f1bb08",
+
     },
     {
         pid: 111,
@@ -379,7 +380,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#5c6cc0",
+
     },
     {
         pid: 112,
@@ -417,7 +418,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#2775c9",
+
     },
     {
         pid: 113,
@@ -455,7 +456,7 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#0033AD",
+
     },
     {
         pid: 114,
@@ -493,8 +494,353 @@ module.exports = vaults = [
             address: "0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95"
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
-        color: "#009e7b",
     },
+
+    /// NEW MAXIMIZERS 04/20
+    {
+        pid: 115,
+        network: 56,
+        symbol: "CAKE-BNB LP",
+        address: "0x0dfD4BC139dD81D98257a0b5dC056f59D22d43F4",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 2,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "CAKE-BNB LP",
+            address: "0x0eD7e52944161450477ee417DE9Cd3a859b14fD0"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 116,
+        network: 56,
+        symbol: "BNB-BUSD LP",
+        address: "0x602C250713F946B7F1339c6D20Fa064f8A81d3ec",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 3,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "BNB-BUSD LP",
+            address: "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 117,
+        network: 56,
+        symbol: "ADA-BNB LP",
+        address: "0xD9ac888a9bF2cB75f4b912a68adf964b6D267a38",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 4,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "ADA-BNB LP",
+            address: "0x28415ff2C35b65B9E5c7de82126b4015ab9d031F"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 118,
+        network: 56,
+        symbol: "DOT-BNB LP",
+        address: "0x3006cf8E63E006A5189778eE1587b0e08C25FcA1",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 5,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "DOT-BNB LP",
+            address: "0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 119,
+        network: 56,
+        symbol: "LINK-BNB LP",
+        address: "0x9DE2d162E9213b45453000A47E4397Ae78811426",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 6,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "LINK-BNB LP",
+            address: "0x824eb9faDFb377394430d2744fa7C42916DE3eCe"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 120,
+        network: 56,
+        symbol: "USDT-BUSD LP",
+        address: "0x14d61d88D5D37aaefd928c55be6f322a8ad8e5a5",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 7,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "USDT-BUSD LP",
+            address: "0x7EFaEf62fDdCCa950418312c6C91Aef321375A00"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 121,
+        network: 56,
+        symbol: "TWT-BNB LP",
+        address: "0xf7EBc580c0DC192459Ba8B073E8D49D88cA52c05",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 8,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "TWT-BNB LP",
+            address: "0x3DcB1787a95D2ea0Eb7d00887704EeBF0D79bb13"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 122,
+        network: 56,
+        symbol: "XVS-BNB LP",
+        address: "0xcDFeBc260359454578BF2446923876840cDe408A",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 9,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "XVS-BNB LP",
+            address: "0x7EB5D86FD78f3852a3e0e064f2842d45a3dB6EA2"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+    {
+        pid: 123,
+        network: 56,
+        symbol: "ETH-BNB LP",
+        address: "0xf633335C8Ae858CeA7AC8c8ab227062526Fd2bDf",
+        filter: {
+            platform: {
+                label: "PancakeSwap",
+                displayLabel: "\ud83e\udd5e PancakeSwap",
+                color: "#77d4db",
+                textColor: "#0f1c36",
+                router: "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+            },
+            vaultType: [
+                {
+                    label: "LP"
+                }
+            ]
+        },
+        isMaximizer: true,
+        isMercuryVault: true,
+        maximizerVaultPid: 102,
+        basePoolPid: 10,
+        baseTokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        tokenStacked: {
+            symbol: "ETH-BNB LP",
+            address: "0x74E4716E431f45807DCF19f284c7aA99F18a4fbc"
+        },
+        tokenEarned: {
+            symbol: "CAKE",
+            address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82"
+        },
+        gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
+        deployed: false
+    },
+
+    ////
     {
         pid: 1,
         network: 56,
