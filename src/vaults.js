@@ -431,7 +431,7 @@ module.exports = vaults = [
         pid: 115,
         network: 56,
         symbol: "CAKE-BNB LP",
-        address: "0x0dfD4BC139dD81D98257a0b5dC056f59D22d43F4",
+        address: "0x0e7cD8bb891DeDdf737f90B57f48607716B6d10F",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -454,13 +454,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#1fc7d4",
-        deployed: false
+
     },
     {
         pid: 116,
         network: 56,
         symbol: "BNB-BUSD LP",
-        address: "0x602C250713F946B7F1339c6D20Fa064f8A81d3ec",
+        address: "0xDa131eA74519DcB840e5D1DC28e10b03cE1568D1",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -483,13 +483,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#f1bb08",
-        deployed: false
+
     },
     {
         pid: 117,
         network: 56,
         symbol: "ADA-BNB LP",
-        address: "0xD9ac888a9bF2cB75f4b912a68adf964b6D267a38",
+        address: "0xF46f0b2A04a95bE562a6cf885683D150E94C3020",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -512,13 +512,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#0033AD",
-        deployed: false
+
     },
     {
         pid: 118,
         network: 56,
         symbol: "DOT-BNB LP",
-        address: "0x3006cf8E63E006A5189778eE1587b0e08C25FcA1",
+        address: "0x5f914d6A6689C198A8059Ed1343f85314f9d9DDb",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -541,13 +541,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#E6007A",
-        deployed: false
+
     },
     {
         pid: 119,
         network: 56,
         symbol: "LINK-BNB LP",
-        address: "0x9DE2d162E9213b45453000A47E4397Ae78811426",
+        address: "0x31A4a4cA80cf4959bD8587c5E84361A99F86B724",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -570,13 +570,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#2350cf",
-        deployed: false
+
     },
     {
         pid: 120,
         network: 56,
         symbol: "USDT-BUSD LP",
-        address: "0x14d61d88D5D37aaefd928c55be6f322a8ad8e5a5",
+        address: "0xe7b70dFbE5018ba1B87ce2eBC33dAdc29DcF3E6f",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -599,13 +599,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#009e7b",
-        deployed: false
+
     },
     {
         pid: 121,
         network: 56,
         symbol: "TWT-BNB LP",
-        address: "0xf7EBc580c0DC192459Ba8B073E8D49D88cA52c05",
+        address: "0x68684d33D02706d20466D31D49574aaD1c5C487d",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -628,13 +628,13 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#4f78d6",
-        deployed: false
+
     },
     {
         pid: 122,
         network: 56,
         symbol: "XVS-BNB LP",
-        address: "0xcDFeBc260359454578BF2446923876840cDe408A",
+        address: "0xF1ecBEcAdBdd2D5bcD2c33cd81Ed712A32462428",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -657,13 +657,12 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#20BDFF",
-        deployed: false
     },
     {
         pid: 123,
         network: 56,
         symbol: "ETH-BNB LP",
-        address: "0xf633335C8Ae858CeA7AC8c8ab227062526Fd2bDf",
+        address: "0x4DbdE0A6aE4d1A5615A2422a2234ac83CB72Ce88",
         filter: {
             platform: platforms.pancakeswap,
             vaultType: [vaultTypes.lp]
@@ -686,7 +685,6 @@ module.exports = vaults = [
         },
         gradient: "linear-gradient(90deg, rgba(119,212,219,0.2) 0%, rgba(11,23,46,0.2) 100%)",
         color: "#5c6cc0",
-        deployed: false
     },
 
     ////
