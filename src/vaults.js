@@ -164,11 +164,11 @@ module.exports = vaults = [
         strategies: [
             {
                 tokenFarmed: {
-                    symbol: "GMT",
-                    address: "0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1"
+                    symbol: "GAL",
+                    address: "0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5"
                 },
-                sousChefAddress: "0xe76a31cF974BA5819ce86cB4667a4bf05174bC59",
-                strategyAddress: "0x3cF795333ae4818268edC3c136285eE7D9a64447"
+                sousChefAddress: "0xa5D57C5dca083a7051797920c78fb2b19564176B",
+                strategyAddress: "0x31816AA25e0B4Dd28bd3151B8D9ec4958D125303"
             }
         ]
     },
