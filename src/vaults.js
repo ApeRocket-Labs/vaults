@@ -164,11 +164,11 @@ module.exports = vaults = [
         strategies: [
             {
                 tokenFarmed: {
-                    symbol: "GAL",
-                    address: "0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5"
+                    symbol: "SDAO",
+                    address: "0x90Ed8F1dc86388f14b64ba8fb4bbd23099f18240"
                 },
-                sousChefAddress: "0xa5D57C5dca083a7051797920c78fb2b19564176B",
-                strategyAddress: "0x31816AA25e0B4Dd28bd3151B8D9ec4958D125303"
+                sousChefAddress: "0x168eF2e470bfeAEB32BE52FB218A41483904851c",
+                strategyAddress: "0x16C94bA5509f84dc9B489540CFEC14B9E32009a9"
             }
         ]
     },
